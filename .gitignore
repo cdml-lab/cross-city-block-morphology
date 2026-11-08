@@ -1,0 +1,7 @@
+__pycache__/
+*.egg-info/
+.venv/
+*.parquet
+*.npy
+study-inputs/
+/reproduction_*.json

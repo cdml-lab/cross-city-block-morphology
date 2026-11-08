@@ -1,0 +1,7 @@
+# The four packages at v1.0.0, from their repositories (not on PyPI)
+urban-block-morphology @ git+https://github.com/cdml-lab/urban-block-morphology@v1.0.0
+urban-block-morphology-morphometric @ git+https://github.com/cdml-lab/urban-block-morphology-morphometric@v1.0.0
+urban-block-morphology-ssl @ git+https://github.com/cdml-lab/urban-block-morphology-ssl@v1.0.0
+urban-block-morphology-united @ git+https://github.com/cdml-lab/urban-block-morphology-united@v1.0.0
+pyyaml>=6
+pyarrow>=14

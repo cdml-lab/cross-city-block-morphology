@@ -1,0 +1,9 @@
+[submodule "packages/urban-block-morphology-morphometric"]
+	path = packages/urban-block-morphology-morphometric
+	url = https://github.com/cdml-lab/urban-block-morphology-morphometric.git
+[submodule "packages/urban-block-morphology-ssl"]
+	path = packages/urban-block-morphology-ssl
+	url = https://github.com/cdml-lab/urban-block-morphology-ssl.git
+[submodule "packages/urban-block-morphology-united"]
+	path = packages/urban-block-morphology-united
+	url = https://github.com/cdml-lab/urban-block-morphology-united.git

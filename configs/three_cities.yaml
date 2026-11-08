@@ -1,0 +1,38 @@
+# Three-city set: the models of the study, reproduced by
+#   python scripts/check_reproduction.py configs/three_cities.yaml --inputs ../study-inputs/three_cities
+# cities: pooling order (row order of the pooled models; K-means initialisation depends on it).
+# d: whitened PCA components, fixed by the decision rule of 22 October 2026 (docs/method.md).
+# expected_k: the published K and the status of the K rule (rule | fallback) per model.
+# model: K-means and K-rule settings of every model, as in urban-block-morphology-morphometric (configs/sets/three_cities.yaml).
+name: three-city set
+model: {pca_whiten: true, min_type_size: 12, kmeans_n_init: 10, random_state: 42}
+cities: [TLV, MAN, AMS]
+labels: results/three_cities/assignments.csv
+tracks:
+  A:
+    d: 5
+    k_range_city: [5, 15]
+    k_range_pooled: [5, 15]
+    expected_k:
+      TLV: [9, rule]
+      MAN: [8, rule]
+      AMS: [11, rule]
+      pooled: [8, rule]
+  B:
+    d: 5
+    k_range_city: [5, 15]
+    k_range_pooled: [5, 15]
+    expected_k:
+      TLV: [6, fallback]
+      MAN: [8, rule]
+      AMS: [8, rule]
+      pooled: [10, rule]
+  C:
+    d: 8
+    k_range_city: [5, 15]
+    k_range_pooled: [5, 15]
+    expected_k:
+      TLV: [9, rule]
+      MAN: [9, rule]
+      AMS: [10, rule]
+      pooled: [10, rule]

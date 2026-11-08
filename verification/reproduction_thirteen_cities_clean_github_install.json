@@ -1,0 +1,984 @@
+{
+ "result": "REPRODUCTION_OK",
+ "config": "thirteen-city set",
+ "packages": {
+  "blockmorph": "1.0.0",
+  "blockmorph_global": "1.0.0",
+  "blockssl": "1.0.0",
+  "blocktypes": "1.0.0"
+ },
+ "python": "3.13.5",
+ "numpy": "2.5.4",
+ "pandas": "3.1.1",
+ "scikit_learn": "1.9.1",
+ "blockmorph_core": "1.0.0",
+ "seconds": 3138.7,
+ "models": [
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "TLV",
+   "blocks": 1609,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 4.875850677915948e-15,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "MAN",
+   "blocks": 3258,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.2728585183477405e-14,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "AMS",
+   "blocks": 2858,
+   "expected_k": 11,
+   "reproduced_k": 11,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 5.8414167660084616e-15,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "MTL",
+   "blocks": 2329,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.6571523371450836e-14,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "BCN",
+   "blocks": 2271,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.8177137945876977e-15,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "RIO",
+   "blocks": 1412,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.3589109578251281e-14,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "SAO",
+   "blocks": 2185,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 5.019920034188106e-15,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "NBO",
+   "blocks": 3597,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 7.686012460290642e-15,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "CAI",
+   "blocks": 4821,
+   "expected_k": 11,
+   "reproduced_k": 11,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 3.577714343038751e-15,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "LOS",
+   "blocks": 4062,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 4.6354972142393695e-15,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "BOM",
+   "blocks": 2534,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 9.519335252826727e-15,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "TYO",
+   "blocks": 9460,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 2.0859877046834043e-14,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "SYD",
+   "blocks": 2074,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 4.007394759094655e-15,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "A",
+   "model": "pooled",
+   "blocks": 42470,
+   "expected_k": 12,
+   "reproduced_k": 12,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 5.197981902218663e-15,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "TLV",
+   "blocks": 1609,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 2.0494275800976612e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "MAN",
+   "blocks": 3258,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 5.665295817622291e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "AMS",
+   "blocks": 2858,
+   "expected_k": 10,
+   "reproduced_k": 10,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 2.1193210898653662e-07,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "MTL",
+   "blocks": 2329,
+   "expected_k": 14,
+   "reproduced_k": 14,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 2.5469355401546148e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "BCN",
+   "blocks": 2271,
+   "expected_k": 12,
+   "reproduced_k": 12,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 5.85515336965412e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "RIO",
+   "blocks": 1412,
+   "expected_k": 11,
+   "reproduced_k": 11,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.3471390632426023e-07,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "SAO",
+   "blocks": 2185,
+   "expected_k": 12,
+   "reproduced_k": 12,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.917519158622186e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "NBO",
+   "blocks": 3597,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 3.227052004926498e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "CAI",
+   "blocks": 4821,
+   "expected_k": 10,
+   "reproduced_k": 10,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 4.0497172339568504e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "LOS",
+   "blocks": 4062,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.430068785536379e-07,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "BOM",
+   "blocks": 2534,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 4.2883378000987287e-07,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "TYO",
+   "blocks": 9460,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 7.395433699375515e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "SYD",
+   "blocks": 2074,
+   "expected_k": 14,
+   "reproduced_k": 14,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 2.750378178918329e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "B",
+   "model": "pooled",
+   "blocks": 42470,
+   "expected_k": 11,
+   "reproduced_k": 11,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 3.100887006922484e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "TLV",
+   "blocks": 1609,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 7.381188407670882e-09,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "MAN",
+   "blocks": 3258,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.0302641675632149e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "AMS",
+   "blocks": 2858,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 4.16126148353861e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "MTL",
+   "blocks": 2329,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 2.524112888731493e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "BCN",
+   "blocks": 2271,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 3.775595560899964e-09,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "RIO",
+   "blocks": 1412,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.4416702703464407e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "SAO",
+   "blocks": 2185,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 5.5602069384618354e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "NBO",
+   "blocks": 3597,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 2.279145795410565e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "CAI",
+   "blocks": 4821,
+   "expected_k": 12,
+   "reproduced_k": 12,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.4300374849019288e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "LOS",
+   "blocks": 4062,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.0699455682347933e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "BOM",
+   "blocks": 2534,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 4.353120594786494e-09,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "TYO",
+   "blocks": 9460,
+   "expected_k": 8,
+   "reproduced_k": 8,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 2.2727517173214964e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "SYD",
+   "blocks": 2074,
+   "expected_k": 9,
+   "reproduced_k": 9,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 1.6495804930963336e-08,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  },
+  {
+   "set": "thirteen-city set",
+   "track": "C",
+   "model": "pooled",
+   "blocks": 42470,
+   "expected_k": 14,
+   "reproduced_k": 14,
+   "expected_status": "rule",
+   "status": "rule",
+   "ari": 1.0,
+   "identical_type_ids": true,
+   "sweep": {
+    "ok": true,
+    "max_relative_difference": 9.53724771636219e-09,
+    "exact": {
+     "min_cluster": true,
+     "admissible": true,
+     "elbow_k": true,
+     "chosen_k": true
+    }
+   },
+   "ok": true
+  }
+ ]
+}

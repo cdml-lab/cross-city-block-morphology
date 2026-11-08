@@ -1,0 +1,68 @@
+# Thirteen-city set: the models of the study, reproduced by
+#   python scripts/check_reproduction.py configs/thirteen_cities.yaml --inputs ../study-inputs/thirteen_cities
+# cities: pooling order (row order of the pooled models; K-means initialisation depends on it).
+# d: whitened PCA components, fixed by the decision rule of 22 October 2026 (docs/method.md).
+# expected_k: the published K and the status of the K rule (rule | fallback) per model.
+# model: K-means and K-rule settings of every model, as in urban-block-morphology-morphometric (configs/sets/thirteen_cities.yaml).
+name: thirteen-city set
+model: {pca_whiten: true, min_type_size: 12, kmeans_n_init: 10, random_state: 42}
+cities: [TLV, MAN, AMS, MTL, BCN, RIO, SAO, NBO, CAI, LOS, BOM, TYO, SYD]
+labels: results/thirteen_cities/assignments.csv
+tracks:
+  A:
+    d: 5
+    k_range_city: [5, 15]
+    k_range_pooled: [5, 25]
+    expected_k:
+      TLV: [9, rule]
+      MAN: [8, rule]
+      AMS: [11, rule]
+      MTL: [8, rule]
+      BCN: [9, rule]
+      RIO: [8, rule]
+      SAO: [8, rule]
+      NBO: [9, rule]
+      CAI: [11, rule]
+      LOS: [8, rule]
+      BOM: [9, rule]
+      TYO: [8, rule]
+      SYD: [8, rule]
+      pooled: [12, rule]
+  B:
+    d: 2
+    k_range_city: [5, 15]
+    k_range_pooled: [5, 25]
+    expected_k:
+      TLV: [8, rule]
+      MAN: [8, rule]
+      AMS: [10, rule]
+      MTL: [14, rule]
+      BCN: [12, rule]
+      RIO: [11, rule]
+      SAO: [12, rule]
+      NBO: [9, rule]
+      CAI: [10, rule]
+      LOS: [8, rule]
+      BOM: [9, rule]
+      TYO: [9, rule]
+      SYD: [14, rule]
+      pooled: [11, rule]
+  C:
+    d: 5
+    k_range_city: [5, 15]
+    k_range_pooled: [5, 25]
+    expected_k:
+      TLV: [9, rule]
+      MAN: [8, rule]
+      AMS: [9, rule]
+      MTL: [9, rule]
+      BCN: [9, rule]
+      RIO: [9, rule]
+      SAO: [8, rule]
+      NBO: [9, rule]
+      CAI: [12, rule]
+      LOS: [8, rule]
+      BOM: [8, rule]
+      TYO: [8, rule]
+      SYD: [9, rule]
+      pooled: [14, rule]
