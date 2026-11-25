@@ -1,0 +1,13 @@
+Set,Track,d,K,Gap vs d = 2,Stability,Stability d = 2,K repeat,K repeat d = 2,E1 fails,E2 fails,C1,C2,C3,Candidate,Qualifies
+3 cities,A,5,8,0.053,0.866,0.884,0.850,0.310,False,False,True,True,True,True,True
+3 cities,A,8,8,0.062,0.925,0.884,0.540,0.310,False,False,True,True,True,True,True
+13 cities,A,5,12,0.053,0.910,0.807,0.980,0.530,False,False,True,True,True,True,True
+13 cities,A,8,12,0.061,0.945,0.807,0.980,0.530,False,False,True,True,True,True,True
+3 cities,B,5,10,0.053,0.923,0.841,1.000,0.770,False,False,True,True,True,True,True
+3 cities,B,8,9,0.077,0.902,0.841,0.960,0.770,True,False,True,True,True,True,False
+3 cities,C,5,8,0.067,0.709,0.938,0.460,0.570,False,False,True,False,False,True,False
+3 cities,C,8,10,0.071,0.904,0.938,0.990,0.570,False,False,True,True,True,True,True
+13 cities,B,5,12,0.051,0.952,0.893,0.510,0.900,False,False,True,True,False,True,False
+13 cities,B,8,10,0.102,0.964,0.893,1.000,0.900,False,False,True,True,True,False,False
+13 cities,C,5,14,0.070,0.956,0.725,0.820,0.410,False,False,True,True,True,True,True
+13 cities,C,8,13,0.091,0.959,0.725,0.800,0.410,False,False,True,True,True,False,False

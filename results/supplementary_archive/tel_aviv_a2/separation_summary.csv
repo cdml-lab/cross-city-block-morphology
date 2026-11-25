@@ -1,0 +1,3 @@
+what,median_eta2,max_eta2,top
+morphometric descriptors (46),0.0949067939987639,0.3378014638345939,"ctx_gsi 0.34, neighbor_dist_mean 0.32, ctx_blg_density_ha 0.28, car_mean 0.27, blg_density_ha 0.26"
+component measures (23),0.4352717163154561,0.6345410206764522,"share_c3 0.63, adj_c0_c3 0.60, adj_c0_c1 0.59, adj_c1_c2 0.55, share_c2 0.54"

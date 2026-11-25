@@ -278,7 +278,7 @@ C,pooled,4,C4,Open fine-grain mid-rise blocks,#9fd36a,2566,1.494,0.22,1.557,23.2
 C,pooled,5,C5,Compact large-footprint towers,#3d5fc4,1366,0.816,0.696,11.469,60.0,1107.3,5.0
 C,pooled,6,C6,Small compact fine-grain low-rise blocks,#a58ee0,6727,0.279,0.419,1.115,8.9,78.7,14.0
 C,pooled,7,C7,Small medium-grain mid-rise blocks,#e27aa8,2507,0.405,0.326,1.076,11.2,384.5,3.0
-C,pooled,8,C8,Fine-grain low-rise superblocks,#c9cfd8,2213,2.797,0.258,0.771,9.9,249.0,23.0
+C,pooled,8,C8,Low-rise superblocks,#c9cfd8,2213,2.797,0.258,0.771,9.9,249.0,23.0
 C,pooled,9,C9,Fine-grain mid-rise blocks,#36a875,2401,0.765,0.359,2.445,23.2,311.1,8.0
 C,pooled,10,C10,Small open fine-grain low-rise blocks,#f39c5a,2231,0.295,0.232,0.435,6.0,91.4,6.0
 C,pooled,11,C11,Small fine-grain mid-rise blocks,#7fd1c7,4271,0.269,0.329,1.571,15.5,192.2,4.0

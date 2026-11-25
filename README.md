@@ -88,6 +88,7 @@ repository (`docs/reproduction.md`). All 54 models were reproduced exactly on 8 
 | `results/<set>/assignments.csv` | every block: city-model and pooled-model type of A, B and C |
 | `results/<set>/types.csv` | every type of every model: code, name, colour, blocks, median profile |
 | `results/<set>/models.csv` | every model: d, K, rule status, silhouette, gap above noise, stability |
+| `results/supplementary_archive/` | extended results of the supplementary material: model-selection diagnostics, robustness checks, external-assessment effect sizes and intervals, Tel Aviv-Yafo A2 analysis (index in its `README.md`) |
 
 `docs/results.md` documents every column. Block keys are `<city>-<block_id>`, as in the
 packages' outputs.
@@ -97,8 +98,9 @@ packages' outputs.
 - aerial imagery and image crops (provider terms);
 - DINOv3 weights (distributed by Meta under the DINOv3 licence; downloaded by the user);
 - the image embeddings and structure measures (derived from licensed imagery);
-- construction-year, land-use and price layers, and the post hoc associations with them
-  (from the municipal and national sources cited in the article).
+- construction-year, land-use and price layers (from the municipal and national sources cited
+  in the article); only aggregate effect sizes computed from them after fitting are archived
+  (`results/supplementary_archive/`).
 
 Materials marked as not included are shared for research use on request: open an issue
 in this repository or contact the corresponding author of the article; requests are
@@ -123,3 +125,9 @@ modified.
   (`docs/method.md`); morphological examples of the thirteen-city types
   (`results/thirteen_cities/revision_type_examples/`). External reference layers
   (construction year, land use, price) remain outside the repository.
+- 2026-11-25 (second round) — the supplementary material was consolidated; its extended
+  tables, diagnostics and two exploratory figures are archived in `results/supplementary_archive/`
+  and cited there by file. The proposed name of thirteen-city type U8 (`results/thirteen_cities/types.csv`,
+  C8 of the pooled model) changed from *Fine-grain low-rise superblocks* to *Low-rise superblocks*,
+  because the footprints of its cities range from fine to large grain; its identifier, members
+  and profile are unchanged. Dashboard: title and labels follow the article (*combined*, *image*).

@@ -1,0 +1,12 @@
+scope,grouping,eta2H,n,ci_low,ci_high
+TLV all blocks,A pooled (K = 8),0.043204091845686,1286,,
+TLV all blocks,B pooled (K = 10),0.2018280222602769,1286,,
+TLV all blocks,C pooled (K = 10),0.1867284779287971,1286,,
+TLV A2 blocks,B pooled (K = 10),0.1801098417586323,923,0.1179018363579325,0.2848794562481939
+TLV A2 blocks,C pooled (K = 10),0.1591760510048985,923,,
+TLV non-A2 blocks,B pooled (K = 10),0.2570648829977301,363,,
+TLV non-A2 blocks,A pooled (K = 8),0.1319741332925661,363,,
+TLV A2 blocks,location only (4 K-means groups of coordinates),0.3753529148373506,923,0.2692368368570915,0.48439876693852
+TLV A2 blocks,block area only (4 quantile groups),0.0660004254572291,923,,
+"TLV A2 blocks, within location groups",B pooled (K = 10),0.1019125030125416,923,,
+TLV A2 blocks,difference B − location only,-0.1952430730787183,923,-0.2855448166594284,-0.0877704978452513
