@@ -2,7 +2,7 @@
 
 ## What is reproduced
 All 54 models of the article: the city models and the pooled model of the three
-classifications (A morphometric, B image, C united) in the three-city set (12 models) and
+classifications (A morphometric, B image, C combined) in the three-city set (12 models) and
 the thirteen-city set (42 models). Each model is refitted with the pinned packages and
 compared, block by block, with the published labels in `results/<set>/assignments.csv`.
 

@@ -29,10 +29,20 @@ measures describe the shares, mixing, fragmentation and adjacency of vegetation,
 paving, roofs and open ground, weighted 1.5 after standardisation
 (`urban-block-morphology-ssl`).
 
-## C · united
-The standardised morphometric matrix of A and the matrix of B before its final PCA are
-each scaled to unit total variance and joined (50:50), so neither half dominates
-(`urban-block-morphology-united`).
+Spatial support: both image windows are squares centred on the unit centroid (moved inside
+the image extent where necessary). The embedding window (154 m) dims pixels outside the unit
+to 35 % but keeps them in the input; the 23 component measures are computed over the whole
+169 m structure window, not only inside the unit. In the three-city set the whole block lies
+inside the 154 m window for 64.6 % of blocks (169 m: 69.7 %), and for the median block about
+two thirds of each window lies outside the block. The image representation therefore
+describes each unit together with its immediate surroundings.
+
+## C · combined
+Variance-balanced feature fusion: the standardised morphometric matrix of A and the matrix
+of B before its final PCA are each scaled to unit total variance and concatenated before
+the final PCA, so neither set dominates by its number of columns. Equal input variance
+does not imply that the resulting types depend equally on both sets
+(package `urban-block-morphology-united`).
 
 ## Model
 Whitened PCA with d components, K-means (10 initialisations, seed 42), K from 5 to 15

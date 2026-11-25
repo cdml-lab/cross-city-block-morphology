@@ -1,8 +1,7 @@
 # cross-city-block-morphology
 
-Study repository of the article *What aerial imagery adds to block morphometrics:
-self-supervised, morphometric and united classifications of urban block morphology
-across cities*. It holds the configurations of the study's two city sets, a check that
+Study repository of the article *Measuring and Learning Urban Form: A Cross-City
+Comparison of Morphometric and Self-Supervised Representations* (under review). It holds the configurations of the study's two city sets, a check that
 refits every model of the article with the pinned packages and compares it block by
 block with the published labels, the results tables, and the interactive dashboard.
 
@@ -14,7 +13,7 @@ documentation, tests and verification.
 |---|---|---|
 | A · morphometric | [`urban-block-morphology-morphometric`](https://github.com/cdml-lab/urban-block-morphology-morphometric) | blocks, sampling units and 46 morphometric descriptors from building footprints, heights and streets |
 | B · image (DINOv3) | [`urban-block-morphology-ssl`](https://github.com/cdml-lab/urban-block-morphology-ssl) | block crops of aerial imagery, a frozen DINOv3 ViT-L/16 satellite backbone and 23 component-structure measures |
-| C · united | [`urban-block-morphology-united`](https://github.com/cdml-lab/urban-block-morphology-united) | A and B, each scaled to half of the total variance |
+| C · combined | [`urban-block-morphology-united`](https://github.com/cdml-lab/urban-block-morphology-united) | variance-balanced feature fusion: A and B scaled to equal total variance before the final PCA |
 
 The three build on the core package `urban-block-morphology` v1.0.0 (blocks, descriptors,
 K rule), which `requirements.txt` installs.
@@ -111,3 +110,16 @@ Code: MIT (`LICENSE`). Results tables and the dashboard's map data: derived from
 OpenStreetMap (© OpenStreetMap contributors, ODbL 1.0) and Overture Maps data, with
 building heights from 3D-GloBFP and Open Buildings 2.5D (CC BY 4.0) and municipal open
 data (`docs/data.md`). Please cite with `CITATION.cff`.
+
+## Revision record
+
+Release v1.0.0 is the archived state of 8 November 2026 and is unchanged. Later changes on
+`main` are documented here; models, classifications and results tables of v1.0.0 are not
+modified.
+
+- 2026-11-25 — manuscript revision: article title and terminology (Track C is called
+  *combined*; the package name `urban-block-morphology-united` is kept so that links stay
+  valid); documentation of the spatial support of the image representation
+  (`docs/method.md`); morphological examples of the thirteen-city types
+  (`results/thirteen_cities/revision_type_examples/`). External reference layers
+  (construction year, land use, price) remain outside the repository.

@@ -2,7 +2,7 @@
 
 One folder per city set: `results/three_cities/` (7,556 blocks) and
 `results/thirteen_cities/` (42,470 sampling units). Codes: A morphometric, B image
-(DINOv3), C united. Type numbers are those of the article and the dashboard.
+(DINOv3), C combined (variance-balanced fusion). Type numbers are those of the article and the dashboard.
 
 ## assignments.csv
 One row per block, in city order and within a city by `block_id`.
