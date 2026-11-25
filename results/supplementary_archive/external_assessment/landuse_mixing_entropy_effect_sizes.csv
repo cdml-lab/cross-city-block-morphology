@@ -1,0 +1,13 @@
+scope,model,track,k,axis,n_blocks,eta2H,ci_low,ci_high
+Tel Aviv-Yafo,city model,A,9,land-use mixing entropy,1298,0.089570644060369,,
+Tel Aviv-Yafo,city model,B,6,land-use mixing entropy,1298,0.0126608637079607,,
+Tel Aviv-Yafo,city model,C,9,land-use mixing entropy,1298,0.1143263222238586,,
+Manhattan,city model,A,8,land-use mixing entropy,2314,0.1697838264775721,,
+Manhattan,city model,B,8,land-use mixing entropy,2314,0.1158738613730718,,
+Manhattan,city model,C,9,land-use mixing entropy,2314,0.1571812926003429,,
+Amsterdam,city model,A,11,land-use mixing entropy,2236,0.3573144906095186,,
+Amsterdam,city model,B,8,land-use mixing entropy,2236,0.1770181915763757,,
+Amsterdam,city model,C,10,land-use mixing entropy,2236,0.3110647451606359,,
+All three cities,pooled three-city model,A,8,land-use mixing entropy,5848,0.285967605461377,,
+All three cities,pooled three-city model,B,10,land-use mixing entropy,5848,0.2544021029555265,,
+All three cities,pooled three-city model,C,10,land-use mixing entropy,5848,0.3250897913349546,,
