@@ -5,7 +5,9 @@
 classifications, and building heights, floors, coverage (GSI) and intensity (FSI), in 3D.
 
 - View in the browser: https://cdml-lab.github.io/cross-city-block-morphology/
-- Download (release v1.0.0): https://github.com/cdml-lab/cross-city-block-morphology/releases/download/v1.0.0/block-morphology-studio.html
+- View in the browser, anonymised copy for peer review: https://anonymous.4open.science/w/crosscityblockmorphology/
+- Download the current file: https://github.com/cdml-lab/cross-city-block-morphology/blob/main/docs/index.html
+- Download the archived file of release v1.0.0: https://www.github.com/cdml-lab/cross-city-block-morphology/releases/download/v1.0.0/block-morphology-studio.html
 
 Controls: **View** (by city, or the three classifications side by side), **Cities**,
 **Classification scope** (per city; 3 cities (pooled); 13 cities (pooled)), **Colour by**, background map and layers. "How it works" explains

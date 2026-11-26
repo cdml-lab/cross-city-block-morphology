@@ -11,9 +11,9 @@ documentation, tests and verification.
 
 | classification | package (v1.0.0), in `packages/` | what it does |
 |---|---|---|
-| A · morphometric | [`urban-block-morphology-morphometric`](https://github.com/cdml-lab/urban-block-morphology-morphometric) | blocks, sampling units and 46 morphometric descriptors from building footprints, heights and streets |
-| B · image (DINOv3) | [`urban-block-morphology-ssl`](https://github.com/cdml-lab/urban-block-morphology-ssl) | block crops of aerial imagery, a frozen DINOv3 ViT-L/16 satellite backbone and 23 component-structure measures |
-| C · combined | [`urban-block-morphology-united`](https://github.com/cdml-lab/urban-block-morphology-united) | variance-balanced feature fusion: A and B scaled to equal total variance before the final PCA |
+| A · morphometric | `urban-block-morphology-morphometric` · https://github.com/cdml-lab/urban-block-morphology-morphometric | blocks, sampling units and 46 morphometric descriptors from building footprints, heights and streets |
+| B · image (DINOv3) | `urban-block-morphology-ssl` · https://github.com/cdml-lab/urban-block-morphology-ssl | block crops of aerial imagery, a frozen DINOv3 ViT-L/16 satellite backbone and 23 component-structure measures |
+| C · combined | `urban-block-morphology-united` · https://github.com/cdml-lab/urban-block-morphology-united | variance-balanced feature fusion: A and B scaled to equal total variance before the final PCA |
 
 The three build on the core package `urban-block-morphology` v1.0.0 (blocks, descriptors,
 K rule), which `requirements.txt` installs.
@@ -26,12 +26,15 @@ is reported as a fallback).
 ## Dashboard
 
 All blocks of both city sets, the city models and the pooled models of the three
-classifications, building heights, coverage and intensity, in 2D and 3D:
-**[view in the browser](https://cdml-lab.github.io/cross-city-block-morphology/)** ·
-[download v1.0.0](https://github.com/cdml-lab/cross-city-block-morphology/releases/download/v1.0.0/block-morphology-studio.html) ·
-`docs/index.html`.
+classifications, building heights, coverage and intensity, in 2D and 3D. The dashboard is
+one self-contained file, `docs/index.html` (41 MB):
 
-It is one self-contained file (41 MB). The cities are stored compressed inside the page
+- view in the browser: https://cdml-lab.github.io/cross-city-block-morphology/
+- view in the browser, anonymised copy for peer review: https://anonymous.4open.science/w/crosscityblockmorphology/
+- download the current file: https://github.com/cdml-lab/cross-city-block-morphology/blob/main/docs/index.html
+- download the archived file of release v1.0.0: https://www.github.com/cdml-lab/cross-city-block-morphology/releases/download/v1.0.0/block-morphology-studio.html
+
+The cities are stored compressed inside the page
 and unpacked when they are first shown, so the page also opens directly from disk. The
 3D maps need WebGL 2 and an internet connection for deck.gl and the background maps
 (`docs/dashboard.md`).
@@ -88,7 +91,7 @@ repository (`docs/reproduction.md`). All 54 models were reproduced exactly on 8 
 | `results/<set>/assignments.csv` | every block: city-model and pooled-model type of A, B and C |
 | `results/<set>/types.csv` | every type of every model: code, name, colour, blocks, median profile |
 | `results/<set>/models.csv` | every model: d, K, rule status, silhouette, gap above noise, stability |
-| `results/supplementary_archive/` | extended results of the supplementary material: model-selection diagnostics, robustness checks, external-assessment effect sizes and intervals, Tel Aviv-Yafo A2 analysis (index in its `README.md`) |
+| `results/supplementary_archive/` | extended results of the supplementary material (Supplementary Section S13): model-selection diagnostics, robustness checks, external-assessment effect sizes and intervals, Tel Aviv-Yafo A2 analysis (index in its `README.md`) |
 
 `docs/results.md` documents every column. Block keys are `<city>-<block_id>`, as in the
 packages' outputs.
@@ -98,7 +101,7 @@ packages' outputs.
 - aerial imagery and image crops (provider terms);
 - DINOv3 weights (distributed by Meta under the DINOv3 licence; downloaded by the user);
 - the image embeddings and structure measures (derived from licensed imagery);
-- construction-year, land-use and price layers (from the municipal and national sources cited
+- construction-year and land-use layers (from the municipal and national sources cited
   in the article); only aggregate effect sizes computed from them after fitting are archived
   (`results/supplementary_archive/`).
 
@@ -124,10 +127,16 @@ modified.
   valid); documentation of the spatial support of the image representation
   (`docs/method.md`); morphological examples of the thirteen-city types
   (`results/thirteen_cities/revision_type_examples/`). External reference layers
-  (construction year, land use, price) remain outside the repository.
+  (construction year, land use) remain outside the repository.
 - 2026-11-25 (second round) — the supplementary material was consolidated; its extended
-  tables, diagnostics and two exploratory figures are archived in `results/supplementary_archive/`
-  and cited there by file. The proposed name of thirteen-city type U8 (`results/thirteen_cities/types.csv`,
+  tables and diagnostics are archived in `results/supplementary_archive/` and cited there by
+  file (Supplementary Section S13). The proposed name of thirteen-city type U8 (`results/thirteen_cities/types.csv`,
   C8 of the pooled model) changed from *Fine-grain low-rise superblocks* to *Low-rise superblocks*,
   because the footprints of its cities range from fine to large grain; its identifier, members
   and profile are unchanged. Dashboard: title and labels follow the article (*combined*, *image*).
+- 2026-11-26 — the supplementary archive follows the final Supplementary Section S13: outputs of
+  analyses that the article no longer reports were removed (one table, and the corresponding
+  columns and rows of three mixed tables; every other value is unchanged); the previous state
+  remains in the history of `main` (commit `197eab8`). The links of the README and of
+  `docs/dashboard.md` also work in the anonymised copy for peer review. Models,
+  classifications, results tables and the release files of v1.0.0 are unchanged.
