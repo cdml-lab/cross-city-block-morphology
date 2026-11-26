@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
-title: "cross-city-block-morphology: morphometric, self-supervised image and united classifications of urban block morphology in three and thirteen cities"
+title: "cross-city-block-morphology: study repository of the article 'Measuring and Learning Urban Form: A Cross-City Comparison of Morphometric and Self-Supervised Representations'"
+abstract: "Morphometric, image (self-supervised, DINOv3) and combined classifications of urban blocks in the three-city and thirteen-city sets: configurations, a block-by-block reproduction of all 54 models, results tables and the interactive dashboard."
 version: 1.0.0
 date-released: 2026-11-08
 license: MIT
@@ -8,7 +9,7 @@ authors:
   - name: "Author removed for anonymity; will be added after the article is accepted"
 repository-code: "https://github.com/cdml-lab/cross-city-block-morphology"
 url: "https://cdml-lab.github.io/cross-city-block-morphology/"
-keywords: [urban morphology, urban blocks, self-supervised learning, DINOv3, aerial imagery, morphometrics, cross-city comparison]
+keywords: [urban form, urban morphology, urban blocks, morphometrics, self-supervised learning, DINOv3, aerial imagery, combined representation, cross-city comparison]
 references:
   - type: software
     title: "urban-block-morphology"
